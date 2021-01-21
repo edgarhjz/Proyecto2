@@ -72,7 +72,20 @@ namespace Proyecto2
         }
         static void Main(string[] args)
         {
-            // Your Code
+            Console.WriteLine("*******************\nCALCULADORA SIMPLE\n*******************");
+            Console.WriteLine("Menú:");
+            Console.WriteLine();
+            Console.WriteLine("1.- Suma");
+            Console.WriteLine("2.- Resta");
+            Console.WriteLine("3.- Multiplicación");
+            Console.WriteLine("4.- División");
+            Console.WriteLine("5.- Salir");
+            Console.WriteLine();
+            Calculadora();
+            Console.WriteLine("Fin del programa...");
+
+
+            Console.ReadKey();
         }
     }
 }
